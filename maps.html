@@ -1,0 +1,145 @@
+<!doctype html> <!-- necessario anche per motivi legali -->
+<html lang="it">
+<!-- head -->
+
+<head>
+    <!-- charset -->
+    <meta charset="utf-8"> <!--standard di scrittura, ce ne sono vari-->
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!--per la forma degli schermi-->
+    <!-- metadati DC -->
+    <meta name="DC.Title" content="I viaggi di Annibale Carracci">
+    <meta name="DC.Creator" content="Carmen Di Santo">
+    <meta name="DC.Subject" content="I viaggi di Annibale Carracci">
+    <meta name="DC.Description" content="Percorso artistico di Annibale Carracci">
+    <meta name="DC.Publisher"
+        content="">
+    <meta name="DC.Contributor"
+        content="Inserisci i nomi e i cognomi di coloro che hanno contribuito alla realizzazione del tuo sito web">
+    <meta name="DC.Date" content="Inserisci la data di creazione/pubblicazione/aggiornamento del tuo sito web">
+    <meta name="DC.Type" content="Sito web">
+    <meta name="DC.Format" content="HTML/CSS/JS">
+    <link rel="DC.Identifier" href="https://www.nomedelsitoweb.github.io">
+    <meta name="DC.Source" content="Inserisci le risorse utilizzate per la realizzazione del tuo sito web">
+    <meta name="DC.Language" content="it">
+    <meta name="DC.Relation"
+        content="Inserisci dei riferimenti alle risorse collegate al sito web, possibilmente utilizzando identificazioni formali (per esempio, i codici ISBN per i libri)">
+    <link rel="DC.Coverage"
+        href="Inserisci una localizzazione per il tuo sito web, possibilmente utilizzando un vocabolario controllato (per esempio, http://www.getty.edu/research/tools/vocabularies/tgn/)">
+    <meta name="DC.Rights"
+        content="MIT">
+    <!-- il titolo del sito riportato all'interno del tag title compare nella finestra del browser -->
+    <title>I viaggi di Annibale Carracci</title> <!--esce sul tab-->
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <!-- Leaflet CSS -->
+     <!--sono link per arrivare alla libreria che ho usato per la mappa-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+   crossorigin="" />
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     crossorigin=""></script>
+     <style>
+    #map {
+      height: 550px;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<!-- body -->
+
+<body> <!--contenuto vero e proprio del sito-->
+    <!-- header -->
+    <header>
+        <!-- bootstrap navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed font-family: 'Playfair Display', serif-top nav-generale"><!--come appare menu in alto-->
+            <a class="navbar-brand" href="index.html" style=" font-family: 'Playfair Display', serif">I viaggi di Annibale Carracci</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto"><!--unordered list, non voglio dare ordne specifico-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            title="Catalogo"><i class="bi bi-list"></i></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="bologna.html" title="Bologna" style="font-family: 'Montserrat', sans-serif">Bologna</a>
+                            <a class="dropdown-item" href="parma.html" title="Parma" style="font-family: 'Montserrat', sans-serif">Parma</a>
+                            <a class="dropdown-item" href="venezia.html" title="Venezia" style="font-family: 'Montserrat', sans-serif">Venezia</a>
+                            <a class="dropdown-item" href="roma.html" title="Roma" style="font-family: 'Montserrat', sans-serif">Roma</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active"><!--list item--><!--active lo mettiamo x fare più scuro-->
+                        <a class="nav-link" href="index.html" title="Home" style="font-family: 'Montserrat', sans-serif">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="who.html" title="About" style="font-family: 'Montserrat', sans-serif">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="opere.html" title="Le opere" style="font-family: 'Montserrat', sans-serif">Le opere</a><!--il primo non compare è come un metadato-->
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0"><!--form in line significa che puoi inserire robe, my-2... sarebbe lo spazo-->
+                    <input class="form-control mr-sm-2" type="search" placeholder="Cerca" aria-label="Search" style="font-family: 'Montserrat', sans-serif"><!--input si mette sempre quando voglio far inserire qualcsa placeholder quello che c'è dentro-->
+                    <button class="btn btn-outline-danger my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main>
+      <!--mappa-->
+        <div id="map"></div>
+        <script>
+            // Inizializza la mappa (inizialmente da qualsiasi punto)
+            var map = L.map('map');
+
+            // Aggiungi il tile layer OpenStreetMap, è una libreria che da accesso alle mappe
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(map);
+
+            // Posizioni dei marker - var=variabile
+            var locations = [
+                [41.9028, 12.4964, "Roma"], // Roma
+                [44.4949, 11.3426, "Bologna"], // Bologna
+                [44.4805, 10.1940, "Parma"], //Parma
+                [45.2623, 12.1955, "Venezia"] //Venezia
+            ];
+
+            // Aggiungi i marker - foreach = per ogni elemento si compie una funzione
+            locations.forEach(([lat, long, name]) => {
+                L.marker([lat, long]).addTo(map)
+                .bindPopup(name);
+            });
+
+            // Crea un oggetto bounds per adattare la vista, in modo che si vedano tutte
+            var bounds = L.latLngBounds(locations);
+
+            // Adatta la mappa per includere tutti i marker
+            map.fitBounds(bounds, { padding: [50, 50] }); // padding per un po' di spazio ai bordi
+        </script>
+            
+    </main>
+    <!-- script sempre prima della chiusura del body -->
+    <!-- jquery -->
+    <!-- se si intende utilizzare bootstrap è sempre necessario includere prima una libreria di JavaScript chiamata jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <!-- bootstrap js -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

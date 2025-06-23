@@ -1,0 +1,525 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+          <teiHeader>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m">Annibale Carracci</title>
+                        <editor>
+                            <persName>
+                                <forename>Daniele</forename>
+                                <surname>Benati</surname>
+                            </persName>
+                        </editor>
+                        <editor>
+                            <persName>
+                                <forename>Eugenio</forename>
+                                <surname>Riccomini</surname>
+                            </persName>
+                        </editor> 
+                        <imprint>
+                            <pubPlace>Bologna</pubPlace>
+                            <publisher>Electa</publisher>
+                            <date when="2006">2006</date>
+                        </imprint>                
+                    </monogr>
+                    <analytic>
+                        <title level="a"> Un furioso amore per la vera grande pittura italiana</title>
+                        <author>
+                            <persName>
+                                <forename>Alessandro</forename>
+                                <surname>Borgi</surname>
+                            </persName>
+                        </author>                 
+                    </analytic>
+                </biblStruct>
+            </sourceDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="criticism" xml:id="annibale_esordi">
+                      <p>
+        Se è vero che i detrattori bolognesi della 
+        <tech>pala dipinta</tech> 
+        per la 
+        <placeName type="chiesa">chiesa di San Nicolò</placeName>, primo esordio pubblico del giovane 
+        <persName>Annibale</persName>, dovettero trovarsi senza più argomenti di fronte allo smagliante e non certo 
+        <q>incolto</q> 
+        <title type="artwork">Battesimo di Cristo</title> 
+        licenziato dal pittore poco dopo, nel 
+        <date when="1585">1585</date>, per i frati di 
+        <name type="place">San Gregorio</name>, è anche vero che l’affermazione in patria, per lui, non ne conseguì automatica.
+      </p>
+
+      <p>
+        Mentre 
+        <name type="person">Ludovico</name> poté contare fra il 
+        <date from="1586" to="1589">1586 e il 1589</date> su almeno due commesse di grande rilievo da parte di due illustri famiglie bolognesi, non fu a 
+        <placeName type="città">Bologna</placeName> che 
+        <persName>Annibale</persName>, dopo il soggiorno parmense, trovò importanti occasioni di lavoro e di crescita, bensì in una piccola ma florida città del ducato estense situata a mezza via fra 
+        <placeName type="città">Parma</placeName> e 
+        <placeName type="città">Bologna</placeName>: 
+        <placeName type="città">Reggio Emilia</placeName>.
+      </p>
+
+      <p>
+        Stando a 
+        <name type="person">Malvasia</name>, le commissioni da 
+        <placeName>Parma</placeName> e da 
+        <placeName>Reggio</placeName> furono cercate dal giovane esordiente per poter studiare da vicino le opere di colui, il 
+        <persName ref="https://it.wikipedia.org/wiki/Correggio_(pittore)">Correggio</persName>, che tanta parte ebbe nella sua prima decostruzione antimanierista. In realtà è assai più probabile che il pittore avesse compiuto tale scelta soprattutto per sottrarsi all’ambiente 
+        <placeName type="città">Bolognese</placeName>: ostile, fortemente corporativo, di orientamento conservatore e, non ultimo, invidioso.
+      </p>
+       <p>
+        <placeName>Reggio</placeName>, economicamente solida e più aperta alle novità, animata da una ricca e ben organizzata borghesia dalla quale in effetti fu accolto con grande favore, si rivelò una piazza ideale.
+      </p>
+
+      <p>
+        L’esperienza dell’universo correggesco in cui 
+        <name type="person">Annibale</name> si era gettato con entusiasmo a 
+        <placeName type="città">Parma</placeName> poté non meno proficuamente proseguire a 
+        <placeName type="città">Reggio</placeName>, dove almeno un testo fondamentale del grande pittore, la celebre 
+        <title type="artwork">Notte</title> ora a 
+        <placeName type="città">Dresda</placeName>, si poteva ancora ammirare <foreign xml:lang="la">in situ</foreign>.
+      </p>
+
+      <p>
+        Esempio chiave di un momento di crisi – rappresentato in mostra dalla 
+        <title type="artwork">Sacra Famiglia con santa Lucia</title> – che scaturiva appunto da quella volontà: dal desiderio di restituire alla pittura a soggetto illustre la capacità di rappresentare un evento complesso, sul piano dell’azione e degli affetti, scavalcando l’ormai disseccata metodica manierista.
+      </p>
+
+      <p>
+        <seg type="analisi">Ne esce un capolavoro difficile, esorbitante, dove tutto è passione nuova, immensa e corposa presenza, cui manca però, ancora, il legamento sintattico adeguato, mentre la stessa veste pittorica ha qualcosa di inerte e soffocato.</seg>
+      </p>
+
+      <p>
+        L’anno dopo la crisi è risolta nel più sovrano dei modi, come dimostra la cosiddetta 
+        <title type="artwork">Madonna di san Matteo</title>, realizzata per la cappella dei 
+        <name type="organization">Mercanti</name> nella 
+        <placeName type="chiesa">chiesa di San Prospero</placeName>, sempre a 
+        <placeName>Reggio Emilia</placeName>.
+      </p>
+
+      <p>
+        Firmata in capitali romane e datata 
+        <date when="1588">1588</date>, la pala, splendente nella tavolozza, ariosa nella composizione, denuncia a chiare note l’avvenuto incontro con 
+        <placeName>Venezia</placeName>. E con 
+        <name type="person">Veronese</name> in particolare.
+      </p>
+
+      <p>
+        Il che pone dunque l’annosa questione del viaggio a 
+        <placeName>Venezia</placeName>, compiuto sicuramente dal pittore bolognese a un certo punto negli 
+        <date>anni ottanta</date>.
+      </p>
+
+      <p>
+        La critica degli ultimi decenni sembra ormai propensa a prendere assolutamente per buone, nel testo e nella datazione, alcune lettere riportate da 
+        <name type="person">Carlo Cesare Malvasia</name> nelle 
+        <title type="text">Vite dei Carracci</title>.
+      </p>
+
+      <p>
+        Le prime due, di 
+        <name type="person">Annibale</name>, inviate da 
+        <placeName>Parma</placeName> a 
+        <name type="person">Ludovico</name>, attesterebbero la presenza del giovane pittore in quella città e i suoi entusiasmi correggeschi a date precocissime: 
+        <date when="1580-04">l’aprile del 1580</date>.
+      </p>
+
+      <p>
+        La terza, di 
+        <name type="person">Agostino</name>, anch’essa probabilmente a 
+        <name type="person">Ludovico</name> e di cui il biografo stralcia un frammento, proverebbe a sua volta l’immediato passaggio del fratello da 
+        <placeName>Parma</placeName> a 
+        <placeName>Venezia</placeName>, ancorando quindi il suo primo, appassionato confronto coi testi sacri della grande pittura veneziana moderna a quello stesso anno.
+      </p>
+        <p>
+        Continua tuttavia a sembrare più che probabile un intervento da parte del biografo seicentesco, che del resto stendeva le sue 
+        <title type="text">Vite</title> quasi un secolo dopo; e se non per ciò che concerne il contenuto, almeno per quanto riguarda le date delle lettere in questione.
+      </p>
+
+      <p>
+        D’altronde, entrambi i principali biografi di 
+        <name type="person">Annibale</name>, il canonico bolognese e il romano 
+        <name type="person">Bellori</name>, concordano sul fatto che prima vi sia stato il soggiorno 
+        <placeName>parmense</placeName> e poi, raggiungendo il fratello, quello a 
+        <placeName>Venezia</placeName>, come la sequenza delle opere, in parte datate, comprova.
+      </p>
+
+      <p>
+        Se è vero che dal 
+        <date when="1582">1582</date> fino al termine del decennio 
+        <name type="person">Agostino</name> fu con certezza più volte in quella città (lo provano prima di tutto numerose traduzioni a stampa da dipinti veneziani), non è detto che ciò valga pure per 
+        <name type="person">Annibale</name>.
+      </p>
+
+      <p>
+        Anche perché, come gli effetti della conoscenza di 
+        <name type="person">Correggio</name> non si misurano nelle sue opere prima del 
+        <date>1583-1584</date>, la febbre veneziana non colpì l’artista, veramente, prima del 
+        <date when="1588">1588</date>, che è appunto la data della 
+        <title type="artwork">Pala di san Matteo</title>. Il viaggio fatale perciò dovette compiersi fra l’87 dell’
+        <title type="artwork">Assunta</title>.
+      </p>
+
+      <p>
+        Da questo momento sarà invece per 
+        <name type="person">Annibale</name> un crescendo inarrestabile di sperimentazioni sul colore e sulla materia pittorica, applicate a idee che senza rinnegare, tutt’altro, le conquiste sul “naturale” e il primo amore, 
+        <name type="person">Correggio</name>, puntano altrove. È forse questa la stagione più felice del pittore, anche sotto il profilo professionale.
+      </p>
+
+      <p>
+        Altre due importanti commesse giungono da 
+        <placeName>Reggio</placeName>: nel 
+        <date when="1587">1587</date> si era avviata la trattativa per l’enorme 
+        <title type="artwork">Elemosina di san Rocco</title>, destinata alla 
+        <name type="organization">confraternita</name> per cui aveva licenziato nello stesso anno l’
+        <title type="artwork">Assunta</title>. Nell’<date when="1589">89</date> quella per la 
+        <title type="artwork">Madonna di san Luca</title>, oggi al 
+        <placeName>Louvre</placeName>, destinata alla cappella dei 
+        <name type="organization">Notai</name> in 
+        <placeName>cattedrale</placeName>.
+      </p>
+
+      <p>
+        Entrambe le tele saranno consegnate con molto ritardo, come lo stesso 
+        <name type="person">Annibale</name> scriverà in una celebre lettera, per il crescere esponenziale delle richieste. Il che spiega l’affollarsi di opere tra la fine del nono decennio e l’inizio di quello successivo – come in parte la mostra documenta – sul fronte sacro e, non meno, su quello profano.
+      </p>
+
+      <p>
+        La miscela veneto-correggesca, fatta di tenerezze pittoriche e rigoglio cromatico, propria di questo momento incantato (ma anche bulimico nell’ansia di assimilazione ed emulazione che sembra divorare il pittore), vi celebra un vero trionfo, reso finalmente godibile dal recente restauro e tale da far passare inosservato un certo che di irrisolto sul piano compositivo: qualcosa della crisi di cui si è detto evidentemente riaffiorava ancora, qua e là, come anche, volendo, nell’
+        <title type="artwork">acquaforte con San Gerolamo</title>.
+      </p>
+
+      <p>
+        La riappropriazione della grande eredità pittorica settentrionale che l’artista va conducendo sin quasi dall’inizio della sua avventura, prima 
+        <name type="person">Correggio</name>, ora i veneziani, non è certo un revival, non è mai retrospettiva.
+      </p>
+
+      <p>
+        La piccola 
+        <title type="artwork">Assunzione</title> dalle origini ignote ma nata senz’altro per la devozione privata conduce la frenesia del pennello e la frequentazione dei testi lagunari (
+        <name type="person">Veronese</name>, 
+        <name type="person">Tiziano</name>) a una scioltezza di gesto inaudita, a una fusione cromatica che in realtà non ha più nulla degli “sfregazzi” alla veneta, preconizzando piuttosto la più libera pittura di tocco del secolo a venire, dilagante in uno spazio aperto, già in parte barocco.
+      </p>
+
+      <p>
+        Se è vero che i detrattori bolognesi della 
+        <title type="artwork">pala dipinta</title> per la 
+        <placeName>chiesa di San Nicolò</placeName>, primo esordio pubblico del giovane 
+        <name type="person">Annibale</name>, dovettero trovarsi senza più argomenti di fronte allo smagliante e non certo 
+        <q>incolto</q> 
+        <title type="artwork">Battesimo di Cristo</title> licenziato dal pittore poco dopo, nel 
+        <date when="1585">1585</date>, per i frati di 
+        <placeName>San Gregorio</placeName>, è anche vero che l’affermazione in patria, per lui, non ne conseguì automatica.
+      </p>
+       <p>
+        Mentre 
+        <name type="person">Ludovico</name> poté contare fra il 
+        <date when="1586">1586</date> e il 
+        <date when="1589">1589</date> su almeno due commesse di grande rilievo da parte di due illustri famiglie 
+        <placeName>Bolognesi</placeName>, non fu a 
+        <placeName>Bologna</placeName> che 
+        <name type="person">Annibale</name>, dopo il soggiorno 
+        <placeName>parmense</placeName>, trovò importanti occasioni di lavoro e di crescita, bensì in una piccola ma florida città del 
+        <placeName>ducato estense</placeName> situata a mezza via fra 
+        <placeName>Parma</placeName> e 
+        <placeName>Bologna</placeName>: 
+        <placeName>Reggio Emilia</placeName>.
+      </p>
+
+      <p>
+        Stando a 
+        <name type="person">Malvasia</name>, le commissioni da 
+        <placeName>Parma</placeName> e da 
+        <placeName>Reggio</placeName> furono cercate dal giovane esordiente per poter studiare da vicino le opere di colui, il 
+        <name type="person">Correggio</name>, che tanta parte ebbe nella sua prima decostruzione antimanierista. In realtà è assai più probabile che il pittore avesse compiuto tale scelta soprattutto per sottrarsi all’ambiente 
+        <placeName>bolognese</placeName>: ostile, fortemente corporativo, di orientamento conservatore e, non ultimo, invidioso.
+      </p>
+
+      <p>
+        <placeName>Reggio</placeName>, economicamente solida e più aperta alle novità, animata da una ricca e ben organizzata borghesia dalla quale in effetti fu accolto con grande favore, si rivelò una piazza ideale.
+      </p>
+
+      <p>
+        L’esperienza dell’universo correggesco in cui 
+        <name type="person">Annibale</name> si era gettato con entusiasmo a 
+        <placeName>Parma</placeName> poté non meno proficuamente proseguire a 
+        <placeName>Reggio</placeName>, dove almeno un testo fondamentale del grande pittore, la celebre 
+        <title type="artwork">Notte</title> ora a 
+        <placeName>Dresda</placeName>, si poteva ancora ammirare in situ.
+      </p>
+
+      <p>
+        Esempio chiave di un momento di crisi – rappresentato in mostra dalla 
+        <title type="artwork">Sacra famiglia con santa Lucia</title> – che scaturiva appunto da quella volontà: dal desiderio di restituire alla pittura a soggetto illustre la capacità di rappresentare un evento complesso, sul piano dell’azione e degli affetti, scavalcando l’ormai disseccata metodica manierista.
+      </p>
+
+      <p>
+        Ne esce un capolavoro difficile, esorbitante, dove tutto è passione nuova, immensa e corposa presenza, cui manca però, ancora, il legamento sintattico adeguato, mentre la stessa veste pittorica ha qualcosa di inerte e soffocato.
+      </p>
+
+      <p>
+        L’anno dopo la crisi è risolta nel più sovrano dei modi, come dimostra la cosiddetta 
+        <title type="artwork">Madonna di san Matteo</title>, realizzata per la cappella dei 
+        <name type="organization">Mercanti</name> nella 
+        <placeName>chiesa di San Prospero</placeName>, sempre a 
+        <placeName>Reggio Emilia</placeName>.
+      </p>
+
+      <p>
+        Firmata in capitali romane e datata 
+        <date when="1588">1588</date>, la pala, splendente nella tavolozza, ariosa nella composizione, denuncia a chiare note l’avvenuto incontro con 
+        <placeName>Venezia</placeName>. E con 
+        <name type="person">Veronese</name> in particolare.
+      </p>
+
+      <p>
+        Il che pone dunque l’annosa questione del viaggio a 
+        <placeName>Venezia</placeName>, compiuto sicuramente dal pittore bolognese a un certo punto negli anni ottanta.
+      </p>
+
+      <p>
+        La critica degli ultimi decenni sembra ormai propensa a prendere assolutamente per buone, nel testo e nella datazione, alcune lettere riportate da 
+        <name type="person">Carlo Cesare Malvasia</name> nelle 
+        <title type="text">Vite dei Carracci</title>.
+      </p>
+
+      <p>
+        Le prime due, di 
+        <name type="person">Annibale</name>, inviate da 
+        <placeName>Parma</placeName> a 
+        <name type="person">Ludovico</name>, attesterebbero la presenza del giovane pittore in quella città e i suoi entusiasmi correggeschi a date precocissime: l’aprile del 
+        <date when="1580-04">1580</date>.
+      </p>
+         <p>
+        La terza, di 
+        <name type="person">Agostino</name>, anch’essa probabilmente a 
+        <name type="person">Ludovico</name> e di cui il biografo stralcia un frammento, proverebbe a sua volta l’immediato passaggio del fratello da 
+        <placeName>Parma</placeName> a 
+        <placeName>Venezia</placeName>, ancorando quindi il suo primo, appassionato confronto coi testi sacri della grande pittura veneziana moderna a quello stesso anno.
+      </p>
+
+      <p>
+        Continua tuttavia a sembrare più che probabile un intervento da parte del biografo seicentesco, che del resto stendeva le sue 
+        <title type="text">Vite</title> quasi un secolo dopo; e se non per ciò che concerne il contenuto, almeno per quanto riguarda le date delle lettere in questione.
+      </p>
+
+      <p>
+        D’altronde, entrambi i principali biografi di 
+        <name type="person">Annibale</name>, il canonico bolognese e il romano 
+        <name type="person">Bellori</name>, concordano sul fatto che prima vi sia stato il soggiorno 
+        <placeName>parmense</placeName> e poi, raggiungendo il fratello, quello a 
+        <placeName>Venezia</placeName>, come la sequenza delle opere, in parte datate, comprova.
+      </p>
+
+      <p>
+        Se è vero che dal 
+        <date when="1582">1582</date> fino al termine del decennio 
+        <name type="person">Agostino</name> fu con certezza più volte in quella città (lo provano prima di tutto numerose traduzioni a stampa da dipinti veneziani), non è detto che ciò valga pure per 
+        <name type="person">Annibale</name>.
+      </p>
+
+      <p>
+        Anche perché, come gli effetti della conoscenza di 
+        <name type="person">Correggio</name> non si misurano nelle sue opere prima del 
+        <date when="1583">1583</date>-<date when="1584">1584</date>, la febbre veneziana non colpì l’artista, veramente, prima del 
+        <date when="1588">1588</date>, che è appunto la data della 
+        <title type="artwork">Pala di san Matteo</title>. Il viaggio fatale perciò dovette compiersi fra l’87 dell’Assunta.
+      </p>
+
+      <p>
+        Da questo momento sarà invece per 
+        <name type="person">Annibale</name> un crescendo inarrestabile di sperimentazioni sul colore e sulla materia pittorica, applicate a idee che senza rinnegare, tutt’altro, le conquiste sul “naturale” e il primo amore, 
+        <name type="person">Correggio</name>, puntano altrove. È forse questa la stagione più felice del pittore, anche sotto il profilo professionale.
+      </p>
+
+      <p>
+        Altre due importanti commesse giungono da 
+        <placeName>Reggio</placeName>: nel 
+        <date when="1587">1587</date> si era avviata la trattativa per l’enorme 
+        <title type="artwork">Elemosina di san Rocco</title>, destinata alla 
+        <name type="organization">confraternita</name> per cui aveva licenziato nello stesso anno l’Assunta. Nell’89 quella per la 
+        <title type="artwork">Madonna di san Luca</title>, oggi al 
+        <placeName>Louvre</placeName>, destinata alla cappella dei 
+        <name type="organization">Notai</name> in cattedrale.
+      </p>
+
+      <p>
+        Entrambe le tele saranno consegnate con molto ritardo, come lo stesso 
+        <name type="person">Annibale</name> scriverà in una celebre lettera, per il crescere esponenziale delle richieste. Il che spiega l’affollarsi di opere tra la fine del nono decennio e l’inizio di quello successivo – come in parte la mostra documenta – sul fronte sacro e, non meno, su quello profano.
+      </p>
+       <p>
+        La miscela veneto-correggesca, fatta di tenerezze pittoriche e rigoglio cromatico, propria di questo momento incantato (ma anche bulimico nell’ansia di assimilazione ed emulazione che sembra divorare il pittore), vi celebra un vero trionfo, reso finalmente godibile dal recente restauro e tale da far passare inosservato un certo che di irrisolto sul piano compositivo: qualcosa della crisi di cui si è detto evidentemente riaffiorava ancora, qua e là, come anche, volendo, nell’acquaforte con 
+        <title type="artwork">San Gerolamo</title>.
+      </p>
+
+      <p>
+        La riappropriazione della grande eredità pittorica settentrionale che l’artista va conducendo sin quasi dall’inizio della sua avventura, prima 
+        <name type="person">Correggio</name>, ora i veneziani, non è certo un revival, non è mai retrospettiva.
+      </p>
+
+      <p>
+        La piccola 
+        <title type="artwork">Assunzione</title> dalle origini ignote ma nata senz’altro per la devozione privata conduce la frenesia del pennello e la frequentazione dei testi lagunari (Veronese, Tiziano) a una scioltezza di gesto inaudita, a una fusione cromatica che in realtà non ha più nulla degli “sfregazzi” alla veneta, preconizzando piuttosto la più libera pittura di tocco del secolo a venire, dilagante in uno spazio aperto, già in parte barocco.
+      </p>
+
+      <p>
+        Se è vero che i detrattori bolognesi della pala dipinta per la chiesa di 
+        <placeName>San Nicolò</placeName>, primo esordio pubblico del giovane 
+        <name type="person">Annibale</name>, dovettero trovarsi senza più argomenti di fronte allo smagliante e non certo “incolto” 
+        <title type="artwork">Battesimo di Cristo</title> licenziato dal pittore poco dopo, nel 
+        <date when="1585">1585</date>, per i frati di 
+        <placeName>San Gregorio</placeName>, è anche vero che l’affermazione in patria, per lui, non ne conseguì automatica.
+      </p>
+
+      <p>
+        Mentre 
+        <name type="person">Ludovico</name> poté contare fra il 
+        <date when="1586">1586</date> e il 
+        <date when="1589">1589</date> su almeno due commesse di grande rilievo da parte di due illustri famiglie bolognesi, non fu a 
+        <placeName>Bologna</placeName> che 
+        <name type="person">Annibale</name>, dopo il soggiorno parmense, trovò importanti occasioni di lavoro e di crescita, bensì in una piccola ma florida città del ducato estense situata a mezza via fra 
+        <placeName>Parma</placeName> e 
+        <placeName>Bologna</placeName>: 
+        <placeName>Reggio Emilia</placeName>.
+      </p>
+
+      <p>
+        Stando a 
+        <name type="person">Malvasia</name>, le commissioni da 
+        <placeName>Parma</placeName> e da 
+        <placeName>Reggio</placeName> furono cercate dal giovane esordiente per poter studiare da vicino le opere di colui, il 
+        <name type="person">Correggio</name>, che tanta parte ebbe nella sua prima decostruzione antimanierista. In realtà è assai più probabile che il pittore avesse compiuto tale scelta soprattutto per sottrarsi all’ambiente bolognese: ostile, fortemente corporativo, di orientamento conservatore e, non ultimo, invidioso.
+      </p>
+
+      <p>
+        <placeName>Reggio</placeName>, economicamente solida e più aperta alle novità, animata da una ricca e ben organizzata borghesia dalla quale in effetti fu accolto con grande favore, si rivelò una piazza ideale.
+      </p>
+
+      <p>
+        L’esperienza dell’universo correggesco in cui 
+        <name type="person">Annibale</name> sibera gettato con entusiasmo a 
+        <placeName>Parma</placeName> poté non meno proficuamente proseguire a 
+        <placeName>Reggio</placeName>, dove almeno un testo fondamentale del grande pittore, la celebre 
+        <title type="artwork">Notte</title> ora a 
+        <placeName>Dresda</placeName>, si poteva ancora ammirare in situ.
+      </p>
+
+      <p>
+        Esempio chiave di un momento di crisi – rappresentato in mostra dalla 
+        <title type="artwork">Sacra famiglia con santa Lucia</title> – che scaturiva appunto da quella volontà: dal desiderio di restituire alla pittura a soggetto illustre la capacità di rappresentare un evento complesso, sul piano dell’azione e degli affetti, scavalcando l’ormai disseccata metodica manierista.
+      </p>
+
+      <p>
+        Ne esce un capolavoro difficile, esorbitante, dove tutto è passione nuova, immensa e corposa presenza, cui manca però, ancora, il legamento sintattico adeguato, mentre la stessa veste pittorica ha qualcosa di inerte e soffocato.
+      </p>
+
+      <p>
+        L’anno dopo la crisi è risolta nel più sovrano dei modi, come dimostra la cosiddetta 
+        <title type="artwork">Madonna di san Matteo</title>, realizzata per la cappella dei Mercanti nella chiesa di 
+        <placeName>San Prospero</placeName>, sempre a 
+        <placeName>Reggio Emilia</placeName>.
+      </p>
+
+      <p>
+        Firmata in capitali romane e datata 
+        <date when="1588">1588</date>, la pala, splendente nella tavolozza, ariosa nella composizione, denuncia a chiare note l’avvenuto incontro con 
+        <placeName>Venezia</placeName>. E con 
+        <name type="person">Veronese</name> in particolare.
+      </p>
+
+      <p>
+        Il che pone dunque l’annosa questione del viaggio a 
+        <placeName>Venezia</placeName>, compiuto sicuramente dal pittore bolognese a un certo punto negli anni ottanta.
+      </p>
+
+      <p>
+        La critica degli ultimi decenni sembra ormai propensa a prendere assolutamente per buone, nel testo e nella datazione, alcune lettere riportate da 
+        <name type="person">Carlo Cesare Malvasia</name> nelle 
+        <title type="text">Vite dei Carracci</title>.
+      </p>
+
+      <p>
+        Le prime due, di 
+        <name type="person">Annibale</name>, inviate da 
+        <placeName>Parma</placeName> a 
+        <name type="person">Ludovico</name>, attesterebbero la presenza del giovane pittore in quella città e i suoi entusiasmi correggeschi a date precocissime: l’aprile del 
+        <date when="1580">1580</date>.
+      </p>
+
+      <p>
+        La terza, di 
+        <name type="person">Agostino</name>, anch’essa probabilmente a 
+        <name type="person">Ludovico</name> e di cui il biografo stralcia un frammento, proverebbe a sua volta l’immediato passaggio del fratello da 
+        <placeName>Parma</placeName> a 
+        <placeName>Venezia</placeName>, ancorando quindi il suo primo, appassionato confronto coi testi sacri della grande pittura veneziana moderna a quello stesso anno.
+      </p>
+
+      <p>
+        Continua tuttavia a sembrare più che probabile un intervento da parte del biografo seicentesco, che del resto stendeva le sue 
+        <title type="text">Vite</title> quasi un secolo dopo; e se non per ciò che concerne il contenuto, almeno per quanto riguarda le date delle lettere in questione.
+      </p>
+        <p>
+        D’altronde, entrambi i principali biografi di 
+        <name type="person">Annibale</name>, il canonico bolognese e il romano 
+        <name type="person">Bellori</name>, concordano sul fatto che prima vi sia stato il soggiorno parmense e poi, raggiungendo il fratello, quello a 
+        <placeName>Venezia</placeName>, come la sequenza delle opere, in parte datate, comprova.
+      </p>
+
+      <p>
+        Se è vero che dal 
+        <date when="1582">1582</date> fino al termine del decennio 
+        <name type="person">Agostino</name> fu con certezza più volte in quella città (lo provano prima di tutto numerose traduzioni a stampa da dipinti veneziani), non è detto che ciò valga pure per 
+        <name type="person">Annibale</name>.
+      </p>
+
+      <p>
+        Anche perché, come gli effetti della conoscenza di 
+        <name type="person">Correggio</name> non si misurano nelle sue opere prima del 
+        <date when="1583-1584">1583-1584</date>, la febbre veneziana non colpì l’artista, veramente, prima del 
+        <date when="1588">1588</date>, che è appunto la data della 
+        <title type="artwork">Pala di san Matteo</title>. Il viaggio fatale perciò dovette compiersi fra l’87 dell’Assunta.
+      </p>
+
+      <p>
+        Da questo momento sarà invece per 
+        <name type="person">Annibale</name> un crescendo inarrestabile di sperimentazioni sul colore e sulla materia pittorica, applicate a idee che senza rinnegare, tutt’altro, le conquiste sul “naturale” e il primo amore, 
+        <name type="person">Correggio</name>, puntano altrove. È forse questa la stagione più felice del pittore, anche sotto il profilo professionale.
+      </p>
+
+      <p>
+        Altre due importanti commesse giungono da 
+        <placeName>Reggio</placeName>: nel 
+        <date when="1587">1587</date> si era avviata la trattativa per l’enorme 
+        <title type="artwork">Elemosina di san Rocco</title>, destinata alla confraternita per cui aveva licenziato nello stesso anno l’Assunta. Nell’89 quella per la 
+        <title type="artwork">Madonna di san Luca</title>, oggi al 
+        <placeName>Louvre</placeName>, destinata alla cappella dei Notai in cattedrale.
+      </p>
+
+      <p>
+        Entrambe le tele saranno consegnate con molto ritardo, come lo stesso 
+        <name type="person">Annibale</name> scriverà in una celebre lettera, per il crescere esponenziale delle richieste. Il che spiega l’affollarsi di opere tra la fine del nono decennio e l’inizio di quello successivo – come in parte la mostra documenta – sul fronte sacro e, non meno, su quello profano.
+      </p>
+
+      <p>
+        La miscela veneto-correggesca, fatta di tenerezze pittoriche e rigoglio cromatico, propria di questo momento incantato (ma anche bulimico nell’ansia di assimilazione ed emulazione che sembra divorare il pittore), vi celebra un vero trionfo, reso finalmente godibile dal recente restauro e tale da far passare inosservato un certo che di irrisolto sul piano compositivo: qualcosa della crisi di cui si è detto evidentemente riaffiorava ancora, qua e là, come anche, volendo, nell'acquaforte con 
+        <title type="artwork">San Gerolamo</title>.
+      </p>
+
+      <p>
+        La riappropriazione della grande eredità pittorica settentrionale che l’artista va conducendo sin quasi dall’inizio della sua avventura, prima 
+        <name type="person">Correggio</name>, ora i veneziani, non è certo un revival, non è mai retrospettiva.
+      </p>
+
+      <p>
+        La piccola 
+        <title type="artwork">Assunzione</title> dalle origini ignote ma nata senz’altro per la devozione privata conduce la frenesia del pennello e la frequentazione dei testi lagunari ( 
+        <name type="person">Veronese</name>, 
+        <name type="person">Tiziano</name>) a una scioltezza di gesto inaudita, a una fusione cromatica che in realtà non ha più nulla degli “sfregazzi” alla veneta, preconizzando piuttosto la più libera pittura di tocco del secolo a venire, dilagante in uno spazio aperto, già in parte barocco.
+      </p>
+                    
+                    </div>             
+                </body>
+            </text>
+        </TEI>

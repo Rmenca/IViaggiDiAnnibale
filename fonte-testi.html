@@ -1,0 +1,222 @@
+<!doctype html> <!-- necessario anche per motivi legali -->
+<html lang="it">
+<!-- head -->
+
+<head>
+    <meta charset="utf-8"> <!--standard di scrittura, ce ne sono vari-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!--per la forma degli schermi-->
+    <!-- metadati DC -->
+    <meta name="DC.Title" content="	Annibale Carracci. Catalogo della mostra (Bologna 2006–2007; Roma 2007)">
+    <meta name="DC.Creator" content="Daniele Benati, Eugenio Riccomini">
+    <meta name="DC.Subject" content="Annibale Carracci">
+    <meta name="DC.Description" content="Percorso artistico di Annibale Carracci">
+    <meta name="DC.Publisher" content=" Electa">
+    <meta name="DC.Contributor"content="Daniele Benati; Eugenio Riccomini; Claudio Strinati; Andrea Emiliani; Anna Stanzani; Silvia Ginzburg">
+    <meta name="DC.Date" content="2006">
+    <meta name="DC.Type" content="Catalogo">
+    <meta name="DC.Format" content="Text-printed book">
+    <link rel="DC.Identifier" href="ISBN 978-88-370-4349-0"> <!--international standard book numebr, num identif-->
+    <meta name="DC.Language" content="it">
+
+   <!-- Da qui tutti i link per strumenti/font/modifiche css-->
+    <link rel="DC.Coverage"
+        href="Inserisci una localizzazione per il tuo sito web, possibilmente utilizzando un vocabolario controllato (per esempio, http://www.getty.edu/research/tools/vocabularies/tgn/)">
+    <meta name="DC.Rights"
+        content="MIT">
+    <!-- il titolo del sito riportato all'interno del tag title compare nella finestra del browser -->
+    <title>I viaggi di Annibale Carracci</title> <!--esce sul tab-->
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<!-- body -->
+
+<body class="body-fonte"> <!--contenuto vero e proprio del sito-->
+    <!-- header -->
+    <header>
+        <!-- bootstrap navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed font-family: 'Playfair Display', serif-top nav-generale"><!--come appare menu in alto-->
+            <a class="navbar-brand" href="index.html" style=" font-family: 'Playfair Display', serif">I viaggi di Annibale Carracci</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto"><!--unordered list, non voglio dare ordine specifico-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            title="Catalogo"><i class="bi bi-list"></i></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="bologna.html" title="Bologna" style="font-family: 'Montserrat', sans-serif">Bologna</a>
+                            <a class="dropdown-item" href="parma.html" title="Parma" style="font-family: 'Montserrat', sans-serif">Parma</a>
+                            <a class="dropdown-item" href="venezia.html" title="Venezia" style="font-family: 'Montserrat', sans-serif">Venezia</a>
+                            <a class="dropdown-item" href="roma.html" title="Roma" style="font-family: 'Montserrat', sans-serif">Roma</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><!--list item-->
+                        <a class="nav-link" href="index.html" title="Home" style="font-family: 'Montserrat', sans-serif">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="who.html" title="About" style="font-family: 'Montserrat', sans-serif">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="opere.html" title="Le opere" style="font-family: 'Montserrat', sans-serif">Le opere</a><!--il primo non compare è come un metadato-->
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0"><!--form in line significa che puoi inserire robe, my-2... sarebbe lo spazo-->
+                    <input class="form-control mr-sm-2" type="search" placeholder="Cerca" aria-label="Search" style="font-family: 'Montserrat', sans-serif"><!--input si mette sempre quando voglio far inserire qualcsa placeholder quello che c'è dentro-->
+                    <button class="btn btn-outline-danger my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </nav> 
+    </header>
+    <main>
+         <section class="container-fluid mb-5"> <!--modo di gestire impaginazione-->
+            <div class="row">
+                <div class="col-md-12 pb-4 pt-4 mt-1">
+                    <h2 class="text-light text-center">Annibale Carracci. Catalogo della mostra</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center" style="margin-top: 50px; margin-bottom: 40px;">
+                <!-- items -->
+                <div class="col-md-9 col-sm-9 col-xs-12">
+                    <!-- COLONNE INNESTATE: ripeti all'interno di un div con classe col-*-* un div con classe row e innesta al suo interno nuovi div con classe col-*-* -->
+
+                    <!-- prima riga di card per ciascun item -->
+                    <h3 style=" font-family: 'Playfair Display', serif"><em><strong>Un furioso amore per la vera grande pittura italiana</em></strong></h3>
+                    <p style=" font-family: 'Playfair Display', serif">Se è vero che i detrattori bolognesi della pala dipinta per la chiesa di San Nicolò, primo esordio pubblico del giovane Annibale, dovettero trovarsi senza più argomenti di fronte allo smagliante e non certo “incolto” Battesimo di Cristo licenziato dal pittore poco dopo, nel 1585, per i frati di San Gregorio, è anche vero che l’affermazione in patria, per lui, non ne conseguì automatica.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Mentre Ludovico poté contare fra il 1586 e il 1589 su almeno due commesse di grande rilievo da parte di due illustri famiglie bolognesi, non fu a Bologna che Annibale, dopo il soggiorno parmense, trovò importanti occasioni di lavoro e di crescita, bensì in una piccola ma florida città del ducato estense situata a mezza via fra Parma e Bologna: Reggio Emilia.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Stando a Malvasia, le commissioni da Parma e da Reggio furono cercate dal giovane esordiente per poter studiare da vicino le opere di colui, il Correggio, che tanta parte ebbe nella sua prima decostruzione antimanierista. In realtà è assai più probabile che il pittore avesse compiuto tale scelta soprattutto per sottrarsi all’ambiente bolognese: ostile, fortemente corporativo, di orientamento conservatore e, non ultimo, invidioso.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Reggio, economicamente solida e più aperta alle novità, animata da una ricca e ben organizzata borghesia dalla quale in effetti fu accolto con grande favore, si rivelò una piazza ideale.</p>
+                    <p style=" font-family: 'Playfair Display', serif">L’esperienza dell’universo correggesco in cui Annibale sibera gettato con entusiasmo a Parma poté non meno proficuamente proseguire a Reggio, dove almeno un testo fondamentale del grande pittore, la celebre Notte ora a Dresda, si poteva ancora ammirare in situ. </p>
+                    <p style=" font-family: 'Playfair Display', serif">Esempio chiave di un momento di crisi – rappresentato in mostra dalla Sacra famiglia con santa Lucia – che scaturiva appunto da quella volontà: dal desiderio di restituire alla pittura a soggetto illustre la capacità di rappresentare un evento complesso, sul piano dell’azione e degli affetti, scavalcando l’ormai disseccata metodica manierista.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Ne esce un capolavoro difficile, esorbitante, dove tutto è passione nuova, immensa e corposa presenza, cui manca però, ancora, il legamento sintattico adeguato, mentre la stessa veste pittorica ha qualcosa di inerte e soffocato.</p>
+                    <p style=" font-family: 'Playfair Display', serif">L’anno dopo la crisi è risolta nel più sovrano dei modi, come dimostra la cosiddetta Madonna di san Matteo, realizzata per la cappella dei Mercanti nella chiesa di San Prospero, sempre a Reggio Emilia.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Firmata in capitali romane e datata 1588, la pala, splendente nella tavolozza, ariosa nella composizione, denuncia a chiare note l’avvenuto incontro con Venezia. E con Veronese in particolare.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Il che pone dunque l’annosa questione del viaggio a Venezia, compiuto sicuramente dal pittore bolognese a un certo punto negli anni ottanta.</p>
+                    <p style=" font-family: 'Playfair Display', serif">La critica degli ultimi decenni sembra ormai propensa a prendere assolutamente per buone, nel testo e nella datazione, alcune lettere riportate da Carlo Cesare Malvasia nelle Vite dei Carracci.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Le prime due, di Annibale, inviate da Parma a Ludovico, attesterebbero la presenza del giovane pittore in quella città e i suoi entusiasmi correggeschi a date precocissime: l’aprile del 1580.</p>
+                    <p style=" font-family: 'Playfair Display', serif">La terza, di Agostino, anch’essa probabilmente a Ludovico e di cui il biografo stralcia un frammento, proverebbe a sua volta l’immediato passaggio del fratello da Parma a Venezia, ancorando quindi il suo primo, appassionato confronto coi testi sacri della grande pittura veneziana moderna a quello stesso anno.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Continua tuttavia a sembrare più che probabile un intervento da parte del biografo seicentesco, che del resto stendeva le sue Vite quasi un secolo dopo; e se non per ciò che concerne il contenuto, almeno per quanto riguarda le date delle lettere in questione.</p>
+                    <p style=" font-family: 'Playfair Display', serif">D’altronde, entrambi i principali biografi di Annibale, il canonico bolognese e il romano Bellori, concordano sul fatto che prima vi sia stato il soggiorno parmense e poi, raggiungendo il fratello, quello a Venezia, come la sequenza delle opere, in parte datate, comprova.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Se è vero che dal 1582 fino al termine del decennio Agostino fu con certezza più volte in quella città (lo provano prima di tutto numerose traduzioni a stampa da dipinti veneziani), non è detto che ciò valga pure per Annibale.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Anche perché, come gli effetti della conoscenza di Correggio non si misurano nelle sue opere prima del 1583-1584, la febbre veneziana non colpì l’artista, veramente, prima del 1588,che è appunto la data della Pala di san Matteo. Il viaggio fatale perciò dovette compiersi fra l’87 dell’Assunta.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Da questo momento sarà invece per Annibale un crescendo inarrestabile di sperimentazioni sul colore e sulla materia pittorica, applicate a idee che senza rinnegare, tutt’altro, le conquiste sul “naturale” e il primo amore, Correggio, puntano altrove. È forse questa la stagione più felice del pittore, anche sotto il profilo professionale.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Altre due importanti commesse giungono da Reggio: nel 1587 si era avviata la trattativa per l’enorme Elemosina di san Rocco, destinata alla confraternita per cui aveva licenziato nello stesso anno l’Assunta. Nell’89 quella per la Madonna di san Luca, oggi al Louvre, destinata alla cappella dei Notai in cattedrale.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Entrambe le tele saranno consegnate con molto ritardo, come lo stesso Annibale scriverà in una celebre lettera, per il crescere esponenziale delle richieste. Il che spiega l’affollarsi di opere tra la fine del nono decennio e l’inizio di quello successivo – come in parte la mostra documenta – sul fronte sacro e, non meno, su quello profano.</p>
+                    <p style=" font-family: 'Playfair Display', serif">La miscela veneto-correggesca, fatta di tenerezze pittoriche e rigoglio cromatico, propria di questo momento incantato (ma anche bulimico nell’ansia di assimilazione ed emulazione che sembra divorare il pittore), vi celebra un vero trionfo, reso finalmente godibile dal recente restauro e tale da far passare inosservato un certo che di irrisolto sul piano compositivo: qualcosa della crisi di cui si è detto evidentemente riaffiorava ancora, qua e là, come anche, volendo, nell'acquaforte con San Gerolamo.</p>
+                    <p style=" font-family: 'Playfair Display', serif">La riappropriazione della grande eredità pittorica settentrionale che l’artista va conducendo sin quasi dall’inizio della sua avventura, prima Correggio, ora i veneziani, non è certo un revival, non è mai retrospettiva.</p>
+                    <p style=" font-family: 'Playfair Display', serif">La piccola Assunzione dalle origini ignote ma nata senz’altro per la devozione privata conduce la frenesia del pennello e la frequentazione dei testi lagunari (Veronese, Tiziano) a una scioltezza di gesto inaudita, a una fusione cromatica che in realtà non ha più nulla degli “sfregazzi” alla veneta, preconizzando piuttosto la più libera pittura di tocco del secolo a venire, dilagante in uno spazio aperto, già in parte barocco.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Se è vero che i detrattori bolognesi della pala dipinta per la chiesa di San Nicolò, primo esordio pubblico del giovane Annibale, dovettero trovarsi senza più argomenti di fronte allo smagliante e non certo “incolto” Battesimo di Cristo licenziato dal pittore poco dopo, nel 1585, per i frati di San Gregorio, è anche vero che l’affermazione in patria, per lui, non ne conseguì automatica.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Mentre Ludovico poté contare fra il 1586 e il 1589 su almeno due commesse di grande rilievo da parte di due illustri famiglie bolognesi, non fu a Bologna che Annibale, dopo il soggiorno parmense, trovò importanti occasioni di lavoro e di crescita, bensì in una piccola ma florida città del ducato estense situata a mezza via fra Parma e Bologna: Reggio Emilia.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Stando a Malvasia, le commissioni da Parma e da Reggio furono cercate dal giovane esordiente per poter studiare da vicino le opere di colui, il Correggio, che tanta parte ebbe nella sua prima decostruzione antimanierista. In realtà è assai più probabile che il pittore avesse compiuto tale scelta soprattutto per sottrarsi all’ambiente bolognese: ostile, fortemente corporativo, di orientamento conservatore e, non ultimo, invidioso.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Reggio, economicamente solida e più aperta alle novità, animata da una ricca e ben organizzata borghesia dalla quale in effetti fu accolto con grande favore, si rivelò una piazza ideale.</p>
+                    <p style=" font-family: 'Playfair Display', serif">L’esperienza dell’universo correggesco in cui Annibale sibera gettato con entusiasmo a Parma poté non meno proficuamente proseguire a Reggio, dove almeno un testo fondamentale del grande pittore, la celebre Notte ora a Dresda, si poteva ancora ammirare in situ.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Esempio chiave di un momento di crisi – rappresentato in mostra dalla Sacra famiglia con santa Lucia – che scaturiva appunto da quella volontà: dal desiderio di restituire alla pittura a soggetto illustre la capacità di rappresentare un evento complesso, sul piano dell’azione e degli affetti, scavalcando l’ormai disseccata metodica manierista.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Ne esce un capolavoro difficile, esorbitante, dove tutto è passione nuova, immensa e corposa presenza, cui manca però, ancora, il legamento sintattico adeguato, mentre la stessa veste pittorica ha qualcosa di inerte e soffocato.</p>
+                    <p style=" font-family: 'Playfair Display', serif">L’anno dopo la crisi è risolta nel più sovrano dei modi, come dimostra la cosiddetta Madonna di san Matteo, realizzata per la cappella dei Mercanti nella chiesa di San Prospero, sempre a Reggio Emilia. </p>
+                    <p style=" font-family: 'Playfair Display', serif">Firmata in capitali romane e datata 1588, la pala, splendente nella tavolozza, ariosa nella composizione, denuncia a chiare note l’avvenuto incontro con Venezia. E con Veronese in particolare.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Il che pone dunque l’annosa questione del viaggio a Venezia, compiuto sicuramente dal pittore bolognese a un certo punto negli anni ottanta.</p>
+                    <p style=" font-family: 'Playfair Display', serif">La critica degli ultimi decenni sembra ormai propensa a prendere assolutamente per buone, nel testo e nella datazione, alcune lettere riportate da Carlo Cesare Malvasia nelle Vite dei Carracci.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Le prime due, di Annibale, inviate da Parma a Ludovico, attesterebbero la presenza del giovane pittore in quella città e i suoi entusiasmi correggeschi a date precocissime: l’aprile del 1580.</p>
+                    <p style=" font-family: 'Playfair Display', serif">La terza, di Agostino, anch’essa probabilmente a Ludovico e di cui il biografo stralcia un frammento, proverebbe a sua volta l’immediato passaggio del fratello da Parma a Venezia, ancorando quindi il suo primo, appassionato confronto coi testi sacri della grande pittura veneziana moderna a quello stesso anno. </p>
+                    <p style=" font-family: 'Playfair Display', serif">Continua tuttavia a sembrare più che probabile un intervento da parte del biografo seicentesco, che del resto stendeva le sue Vite quasi un secolo dopo; e se non per ciò che concerne il contenuto, almeno per quanto riguarda le date delle lettere in questione.</p>
+                    <p style=" font-family: 'Playfair Display', serif">D’altronde, entrambi i principali biografi di Annibale, il canonico bolognese e il romano Bellori, concordano sul fatto che prima vi sia stato il soggiorno parmense e poi, raggiungendo il fratello, quello a Venezia, come la sequenza delle opere, in parte datate, comprova. </p>
+                    <p style=" font-family: 'Playfair Display', serif">Se è vero che dal 1582 fino al termine del decennio Agostino fu con certezza più volte in quella città (lo provano prima di tutto numerose traduzioni a stampa da dipinti veneziani), non è detto che ciò valga pure per Annibale. </p>
+                    <p style=" font-family: 'Playfair Display', serif">Anche perché, come gli effetti della conoscenza di Correggio non si misurano nelle sue opere prima del 1583-1584, la febbre veneziana non colpì l’artista, veramente, prima del 1588,che è appunto la data della Pala di san Matteo. Il viaggio fatale perciò dovette compiersi fra l’87 dell’Assunta. </p>
+                    <p style=" font-family: 'Playfair Display', serif">Da questo momento sarà invece per Annibale un crescendo inarrestabile di sperimentazioni sul colore e sulla materia pittorica, applicate a idee che senza rinnegare, tutt’altro, le conquiste sul “naturale” e il primo amore, Correggio, puntano altrove. È forse questa la stagione più felice del pittore, anche sotto il profilo professionale. </p>
+                    <p style=" font-family: 'Playfair Display', serif">Altre due importanti commesse giungono da Reggio: nel 1587 si era avviata la trattativa per l’enorme Elemosina di san Rocco, destinata alla confraternita per cui aveva licenziato nello stesso anno l’Assunta. Nell’89 quella per la Madonna di san Luca, oggi al Louvre, destinata alla cappella dei Notai in cattedrale. </p>
+                    <p style=" font-family: 'Playfair Display', serif">Entrambe le tele saranno consegnate con molto ritardo, come lo stesso Annibale scriverà in una celebre lettera, per il crescere esponenziale delle richieste. Il che spiega l’affollarsi di opere tra la fine del nono decennio e l’inizio di quello successivo – come in parte la mostra documenta – sul fronte sacro e, non meno, su quello profano. </p>
+                    <p style=" font-family: 'Playfair Display', serif">La miscela veneto-correggesca, fatta di tenerezze pittoriche e rigoglio cromatico, propria di questo momento incantato (ma anche bulimico nell’ansia di assimilazione ed emulazione che sembra divorare il pittore), vi celebra un vero trionfo, reso finalmente godibile dal recente restauro e tale da far passare inosservato un certo che di irrisolto sul piano compositivo: qualcosa della crisi di cui si è detto evidentemente riaffiorava ancora, qua e là, come anche, volendo, nell'acquaforte con San Gerolamo. </p>
+                    <p style=" font-family: 'Playfair Display', serif">La riappropriazione della grande eredità pittorica settentrionale che l’artista va conducendo sin quasi dall’inizio della sua avventura, prima Correggio, ora i veneziani, non è certo un revival, non è mai retrospettiva. </p>
+                    <p style=" font-family: 'Playfair Display', serif">La piccola Assunzione dalle origini ignote ma nata senz’altro per la devozione privata conduce la frenesia del pennello e la frequentazione dei testi lagunari (Veronese, Tiziano) a una scioltezza di gesto inaudita, a una fusione cromatica che in realtà non ha più nulla degli “sfregazzi” alla veneta, preconizzando piuttosto la più libera pittura di tocco del secolo a venire, dilagante in uno spazio aperto, già in parte barocco. </p>
+                    <p style=" font-family: 'Playfair Display', serif">Se è vero che i detrattori bolognesi della pala dipinta per la chiesa di San Nicolò, primo esordio pubblico del giovane Annibale, dovettero trovarsi senza più argomenti di fronte allo smagliante e non certo “incolto” Battesimo di Cristo licenziato dal pittore poco dopo, nel 1585, per i frati di San Gregorio, è anche vero che l’affermazione in patria, per lui, non ne conseguì automatica. </p>
+                    <p style=" font-family: 'Playfair Display', serif">Mentre Ludovico poté contare fra il 1586 e il 1589 su almeno due commesse di grande rilievo da parte di due illustri famiglie bolognesi, non fu a Bologna che Annibale, dopo il soggiorno parmense, trovò importanti occasioni di lavoro e di crescita, bensì in una piccola ma florida città del ducato estense situata a mezza via fra Parma e Bologna: Reggio Emilia. </p>
+                    <p style=" font-family: 'Playfair Display', serif">Stando a Malvasia, le commissioni da Parma e da Reggio furono cercate dal giovane esordiente per poter studiare da vicino le opere di colui, il Correggio, che tanta parte ebbe nella sua prima decostruzione antimanierista. In realtà è assai più probabile che il pittore avesse compiuto tale scelta soprattutto per sottrarsi all’ambiente bolognese: ostile, fortemente corporativo, di orientamento conservatore e, non ultimo, invidioso.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Reggio, economicamente solida e più aperta alle novità, animata da una ricca e ben organizzata borghesia dalla quale in effetti fu accolto con grande favore, si rivelò una piazza ideale.</p>
+                    <p style=" font-family: 'Playfair Display', serif">L’esperienza dell’universo correggesco in cui Annibale sibera gettato con entusiasmo a Parma poté non meno proficuamente proseguire a Reggio, dove almeno un testo fondamentale del grande pittore, la celebre Notte ora a Dresda, si poteva ancora ammirare in situ. 
+                    <p style=" font-family: 'Playfair Display', serif">Esempio chiave di un momento di crisi – rappresentato in mostra dalla Sacra famiglia con santa Lucia – che scaturiva appunto da quella volontà: dal desiderio di restituire alla pittura a soggetto illustre la capacità di rappresentare un evento complesso, sul piano dell’azione e degli affetti, scavalcando l’ormai disseccata metodica manierista.
+                    <p style=" font-family: 'Playfair Display', serif">Ne esce un capolavoro difficile, esorbitante, dove tutto è passione nuova, immensa e corposa presenza, cui manca però, ancora, il legamento sintattico adeguato, mentre la stessa veste pittorica ha qualcosa di inerte e soffocato.</p>
+                    <p style=" font-family: 'Playfair Display', serif">L’anno dopo la crisi è risolta nel più sovrano dei modi, come dimostra la cosiddetta Madonna di san Matteo, realizzata per la cappella dei Mercanti nella chiesa di San Prospero, sempre a Reggio Emilia.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Firmata in capitali romane e datata 1588, la pala, splendente nella tavolozza, ariosa nella composizione, denuncia a chiare note l’avvenuto incontro con Venezia. E con Veronese in particolare.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Il che pone dunque l’annosa questione del viaggio a Venezia, compiuto sicuramente dal pittore bolognese a un certo punto negli anni ottanta.</p>
+                    <p style=" font-family: 'Playfair Display', serif">La critica degli ultimi decenni sembra ormai propensa a prendere assolutamente per buone, nel testo e nella datazione, alcune lettere riportate da Carlo Cesare Malvasia nelle Vite dei Carracci.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Le prime due, di Annibale, inviate da Parma a Ludovico, attesterebbero la presenza del giovane pittore in quella città e i suoi entusiasmi correggeschi a date precocissime: l’aprile del 1580.</p>
+                    <p style=" font-family: 'Playfair Display', serif">La terza, di Agostino, anch’essa probabilmente a Ludovico e di cui il biografo stralcia un frammento, proverebbe a sua volta l’immediato passaggio del fratello da Parma a Venezia, ancorando quindi il suo primo, appassionato confronto coi testi sacri della grande pittura veneziana moderna a quello stesso anno.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Continua tuttavia a sembrare più che probabile un intervento da parte del biografo seicentesco, che del resto stendeva le sue Vite quasi un secolo dopo; e se non per ciò che concerne il contenuto, almeno per quanto riguarda le date delle lettere in questione.</p>
+                    <p style=" font-family: 'Playfair Display', serif">D’altronde, entrambi i principali biografi di Annibale, il canonico bolognese e il romano Bellori, concordano sul fatto che prima vi sia stato il soggiorno parmense e poi, raggiungendo il fratello, quello a Venezia, come la sequenza delle opere, in parte datate, comprova.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Se è vero che dal 1582 fino al termine del decennio Agostino fu con certezza più volte in quella città (lo provano prima di tutto numerose traduzioni a stampa da dipinti veneziani), non è detto che ciò valga pure per Annibale.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Anche perché, come gli effetti della conoscenza di Correggio non si misurano nelle sue opere prima del 1583-1584, la febbre veneziana non colpì l’artista, veramente, prima del 1588,che è appunto la data della Pala di san Matteo. Il viaggio fatale perciò dovette compiersi fra l’87 dell’Assunta.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Da questo momento sarà invece per Annibale un crescendo inarrestabile di sperimentazioni sul colore e sulla materia pittorica, applicate a idee che senza rinnegare, tutt’altro, le conquiste sul “naturale” e il primo amore, Correggio, puntano altrove. È forse questa la stagione più felice del pittore, anche sotto il profilo professionale.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Altre due importanti commesse giungono da Reggio: nel 1587 si era avviata la trattativa per l’enorme Elemosina di san Rocco, destinata alla confraternita per cui aveva licenziato nello stesso anno l’Assunta. Nell’89 quella per la Madonna di san Luca, oggi al Louvre, destinata alla cappella dei Notai in cattedrale.</p>
+                    <p style=" font-family: 'Playfair Display', serif">Entrambe le tele saranno consegnate con molto ritardo, come lo stesso Annibale scriverà in una celebre lettera, per il crescere esponenziale delle richieste. Il che spiega l’affollarsi di opere tra la fine del nono decennio e l’inizio di quello successivo – come in parte la mostra documenta – sul fronte sacro e, non meno, su quello profano.</p>
+                    <p style=" font-family: 'Playfair Display', serif">La miscela veneto-correggesca, fatta di tenerezze pittoriche e rigoglio cromatico, propria di questo momento incantato (ma anche bulimico nell’ansia di assimilazione ed emulazione che sembra divorare il pittore), vi celebra un vero trionfo, reso finalmente godibile dal recente restauro e tale da far passare inosservato un certo che di irrisolto sul piano compositivo: qualcosa della crisi di cui si è detto evidentemente riaffiorava ancora, qua e là, come anche, volendo, nell'acquaforte con San Gerolamo.</p>
+                    <p style=" font-family: 'Playfair Display', serif">La riappropriazione della grande eredità pittorica settentrionale che l’artista va conducendo sin quasi dall’inizio della sua avventura, prima Correggio, ora i veneziani, non è certo un revival, non è mai retrospettiva.</p>
+                    <p style=" font-family: 'Playfair Display', serif">La piccola Assunzione dalle origini ignote ma nata senz’altro per la devozione privata conduce la frenesia del pennello e la frequentazione dei testi lagunari (Veronese, Tiziano) a una scioltezza di gesto inaudita, a una fusione cromatica che in realtà non ha più nulla degli “sfregazzi” alla veneta, preconizzando piuttosto la più libera pittura di tocco del secolo a venire, dilagante in uno spazio aperto, già in parte barocco.</p>
+                     <a href="tei-text.xml" download class="btn btn-outline-danger"> Approfondisci</a>
+                </div>
+            </div>
+        </section>
+    
+    </main>
+ <footer>
+        <!-- informazioni secondarie -->
+        <div class="container-fluid pb-5 pt-5 footer-generale text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mt-4">
+                        <h5 class="text-center">I viaggi di Annibale Carracci</h5>
+                        <ul class="mt-3 pl-0">
+                            <li>SPARQL endpoint</li>
+                            <li>Download del dataset</li>
+                        </ul>
+                        <ul class="mt-3 pl-0">
+                            <li>Specifiche tecniche</li>
+                            <li>Applicazione web</li>
+                        </ul>
+                        <ul class="mt-3 pl-0">
+                            <li>Credits</li>
+                            <li>Licenze</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <h5 class="text-center">/Arti Visive</h5>
+                        <ul class="mt-3 pl-0">
+                            <li><a href="https://corsi.unibo.it/magistrale/artivisive"
+                                    class="text-light" target="_blank" title="Progetti di /DH.arc"><u>ML arti visive</u></a></li>
+                            <li><a href="#" class="text-light" target="_blank"
+                                    title="Contatti di /DH.arc"><u>Contatti</u></a></li>
+                        </ul>
+                        <img src="img/img-home/logo-unibo.svg" style="width: 40%" class="logo-width" alt="Logo Unibo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- copyright -->
+        <div class="container-fluid background-gray">
+            <p class="mb-0 pb-1 pt-1 text-center">© Copyright (c) 2025 by /Carmen Di Santo.</p>
+        </div>
+    </footer>
+    <!-- script sempre prima della chiusura del body -->
+    <!-- jquery -->
+    <!-- se si intende utilizzare bootstrap è sempre necessario includere prima una libreria di JavaScript chiamata jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <!-- bootstrap js -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
